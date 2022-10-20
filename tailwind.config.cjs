@@ -2,7 +2,20 @@ module.exports = {
   darkMode: 'class',
   content: ["./*.{html,js,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        prussianBlue: {
+          100:'##447baa',
+          700:'#115173',
+          800:'#053F5E',
+          900: '#022C43',
+        }, //FFD700
+        yellowC: {
+          700:'#FFD700',
+          
+        },
+      },
+    },
   },
   plugins: [
     require("@tailwindcss/typography"),

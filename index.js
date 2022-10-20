@@ -15,11 +15,15 @@ togBtn.addEventListener('click',()=>{
 
 togBtnCompany.addEventListener('click',()=>{
     //console.log(megaMenu)
+    //console.log(megaMenu.classList)
     if(megaMenuCompany.classList.contains('hidden')){
         megaMenuCompany.classList.remove('hidden');
         
+        megaMenu.classList.add('block');
+        
+        
     }else{
         megaMenuCompany.classList.add('hidden');
-        
+        megaMenu.classList.remove('block');
     }
 });

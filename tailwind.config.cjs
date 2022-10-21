@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         prussianBlue: {
-          100:'##447baa',
+          100:'#447baa',
           700:'#115173',
           800:'#053F5E',
           900: '#022C43',

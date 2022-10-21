@@ -1,18 +1,41 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full">
+<html lang="en" class="h-full" id="documentId">
 
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tailwind Mega Menu</title>
-  
+  <link rel="stylesheet" href="\style.css" />
   <link rel="stylesheet" href="outputstyles.css" />
 </head>
 
 <body class="h-full bg-sky-200 dark:bg-prussianBlue-800">
-  <header class="mx-auto w-full py-6">
-      
+  <header class="mx-auto w-full py-1">
+    <!-- Toggle B -->
+    
+<div class="flex items-center justify-end w-full mb-2">
+  <div class="mr-3 text-gray-700 font-bold dark:text-sky-50">
+    Dark Mode
+  </div>
+  <label for="toggleB" class="flex items-center cursor-pointer mr-20">
+    <!-- toggle -->
+    <div class="relative">
+      <!-- input -->
+      <input type="checkbox" id="toggleB" class="sr-only">
+      <!-- line -->
+      <div class="block bg-gray-600 w-14 h-8 rounded-full"></div>
+      <!-- dot -->
+      <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+    </div>
+    <!-- label -->
+    
+  </label>
+
+</div>
+
+
+
     <nav class="border-gray-red bg-sky-400 px-2 py-2.5 dark:bg-prussianBlue-900 md:px-4">
       <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
         <a href="#" class="flex items-center px-7">
@@ -238,6 +261,7 @@
     </nav>
   </header>
   <script src="index.js"></script>
+  <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
 
 </body>
 

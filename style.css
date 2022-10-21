@@ -14,3 +14,11 @@
         @apply block border-b border-gray-100 py-2 pr-4 pl-3 text-prussianBlue-800 md:hover:text-yellow-200 hover:bg-prussianBlue-700/20 hover:text-prussianBlue-900 dark:border-gray-700 dark:text-sky-50 dark:hover:bg-gray-700 dark:hover:text-yellow-200 md:border-0 md:p-0 md:hover:bg-transparent  md:dark:hover:bg-transparent md:dark:hover:text-yellow-200;
     }
 }
+
+/* Toggle B */
+input:checked ~ .dot {
+    transform: translateX(100%);
+    background-color: #48bb78;
+  }
+
+  

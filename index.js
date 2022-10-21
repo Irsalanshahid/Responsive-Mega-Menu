@@ -27,3 +27,13 @@ togBtnCompany.addEventListener('click',()=>{
         megaMenu.classList.remove('block');
     }
 });
+
+const darkMode = document.getElementById("toggleB");
+const htmlDocWhole = document.getElementById("documentId")
+darkMode.addEventListener('click',()=>{
+    if(darkMode.checked){
+        htmlDocWhole.classList.add("dark");
+    }else{
+        htmlDocWhole.classList.remove('dark');
+    }
+})

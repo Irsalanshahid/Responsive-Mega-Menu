@@ -1,6 +1,6 @@
 module.exports = {
   darkMode: 'class',
-  content: ["./*.{html,js,ts}"],
+  content: ["./*.{html,js,ts}",'./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'],
   theme: {
     extend: {
       colors: {
@@ -23,6 +23,7 @@ module.exports = {
     require("@tailwindcss/aspect-ratio"),
     require("@tailwindcss/line-clamp"),
     require("daisyui"),
-    require("prettier-plugin-tailwindcss")
+    require("prettier-plugin-tailwindcss"),
+    require('tw-elements/dist/plugin')
   ],
 };

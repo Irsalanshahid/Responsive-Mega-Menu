@@ -6261,6 +6261,7 @@ textarea.form-control.is-invalid {
 
 .btn-outline-no-bg {
   margin-right: 1rem;
+  display: none;
   border-radius: 9999px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -6389,6 +6390,7 @@ textarea.form-control.is-invalid {
 @media (min-width: 768px) {
   .btn-outline-no-bg {
     margin-right: 1rem;
+    display: block;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     padding-top: 0.625rem;
@@ -6438,6 +6440,7 @@ textarea.form-control.is-invalid {
 
 .btn-outline-bg {
   margin-right: 0.25rem;
+  display: none;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(5 63 94 / var(--tw-bg-opacity));
@@ -6527,6 +6530,7 @@ textarea.form-control.is-invalid {
 @media (min-width: 768px) {
   .btn-outline-bg {
     margin-right: 0.75rem;
+    display: block;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     padding-top: 0.625rem;
@@ -6647,8 +6651,12 @@ textarea.form-control.is-invalid {
   margin-right: 0.75rem;
 }
 
-.mr-20 {
-  margin-right: 5rem;
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .ml-1 {
@@ -6657,10 +6665,6 @@ textarea.form-control.is-invalid {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
 }
 
 .block {
@@ -6917,11 +6921,6 @@ textarea.form-control.is-invalid {
   font-weight: 500;
 }
 
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
 .text-prussianBlue-800 {
   --tw-text-opacity: 1;
   color: rgb(5 63 94 / var(--tw-text-opacity));
@@ -7065,8 +7064,16 @@ input:checked ~ .dot {
     order: 1;
   }
 
+  .md\:mr-8 {
+    margin-right: 2rem;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:flex {

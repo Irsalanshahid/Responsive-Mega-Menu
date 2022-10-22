@@ -4,11 +4,11 @@
 
 @layer components {
     .btn-outline-no-bg {
-        @apply mr-4 dark:outline-2 dark:outline-yellowC-700 dark:outline outline-2 outline-prussianBlue-800 outline rounded-full px-6 py-2 leading-4 text-xl font-medium text-prussianBlue-800 hover:bg-prussianBlue-700/20 hover:text-prussianBlue-900 focus:outline focus:outline-4 focus:ring-gray-300 dark:text-yellowC-700 dark:hover:bg-gray-700 dark:focus:outline-4  md:mr-4 md:px-5 md:py-2.5;
+        @apply mr-4 hidden md:block dark:outline-2 dark:outline-yellowC-700 dark:outline outline-2 outline-prussianBlue-800 outline rounded-full px-6 py-2 leading-4 text-xl font-medium text-prussianBlue-800 hover:bg-prussianBlue-700/20 hover:text-prussianBlue-900 focus:outline focus:outline-4 focus:ring-gray-300 dark:text-yellowC-700 dark:hover:bg-gray-700 dark:focus:outline-4  md:mr-4 md:px-5 md:py-2.5;
          
     }
     .btn-outline-bg{
-        @apply mr-1 dark:outline-2 dark:outline-sky-300 dark:outline outline-2 outline-sky-50 bg-prussianBlue-800 outline rounded-full px-6 py-2 leading-4 text-xl font-medium text-sky-50 hover:bg-prussianBlue-800/80  focus:outline-4 focus:ring-gray-300 dark:text-prussianBlue-700 dark:hover:bg-yellow-200 dark:focus:outline-4 dark:bg-yellowC-700 md:mr-3 md:px-5 md:py-2.5;
+        @apply mr-1 hidden md:block dark:outline-2 dark:outline-sky-300 dark:outline outline-2 outline-sky-50 bg-prussianBlue-800 outline rounded-full px-6 py-2 leading-4 text-xl font-medium text-sky-50 hover:bg-prussianBlue-800/80  focus:outline-4 focus:ring-gray-300 dark:text-prussianBlue-700 dark:hover:bg-yellow-200 dark:focus:outline-4 dark:bg-yellowC-700 md:mr-3 md:px-5 md:py-2.5;
     }
     .custom-li{
         @apply block border-b border-gray-100 py-2 pr-4 pl-3 text-prussianBlue-800 md:hover:text-yellow-200 hover:bg-prussianBlue-700/20 hover:text-prussianBlue-900 dark:border-gray-700 dark:text-sky-50 dark:hover:bg-gray-700 dark:hover:text-yellow-200 md:border-0 md:p-0 md:hover:bg-transparent  md:dark:hover:bg-transparent md:dark:hover:text-yellow-200;

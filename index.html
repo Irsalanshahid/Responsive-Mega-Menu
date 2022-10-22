@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tailwind Mega Menu</title>
   <link rel="stylesheet" href="\style.css" />
-  <link rel="stylesheet" href="outputstyles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="outputstyles.css" /> 
 </head>
 
 <body class="h-full bg-sky-200 dark:bg-prussianBlue-800">
@@ -15,10 +16,10 @@
     <!-- Toggle B -->
     
 <div class="flex items-center justify-end w-full mb-2">
-  <div class="mr-3 text-gray-700 font-bold dark:text-sky-50">
+  <div class="mr-3 text-prussianBlue-800 font-bold dark:text-sky-50">
     Dark Mode
   </div>
-  <label for="toggleB" class="flex items-center cursor-pointer mr-20">
+  <label for="toggleB" class="flex items-center cursor-pointer mr-2 md:mr-8">
     <!-- toggle -->
     <div class="relative">
       <!-- input -->
@@ -40,15 +41,18 @@
       <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
         <a href="#" class="flex items-center px-7">
           <img src="public/vite.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-          <span class="self-center whitespace-nowrap text-xl font-semibold text-prussianBlue-800 dark:text-sky-50">Your Logo</span>
+          <span class="self-center whitespace-nowrap text-xl font-semibold text-prussianBlue-800 dark:text-sky-50 hidden md:block">Your Logo</span>
         </a>
         <div class="flex items-center md:order-2">
           <a href="#"
-            class="btn-outline-no-bg">Login</a>
+            class="btn-outline-no-bg md:block hidden">Login</a>
           <a href="#"
-            class="btn-outline-bg">Sign
+            class="btn-outline-bg  hidden md:block">Sign
             up</a>
-          <button data-collapse-toggle="mega-menu-icons" type="button" id="toggleButton"
+            <a class="md:hidden block text-xl  font-bold text-prussianBlue-800 dark:text-sky-50 mr-4"><i class="fa fa-sign-in" aria-hidden="true"></i></i></a>
+            <a class="md:hidden block text-xl font-bold text-prussianBlue-800 dark:text-sky-50 mr-2"><i class="fa fa-user-plus" aria-hidden="true"></i></a>
+            
+            <button data-collapse-toggle="mega-menu-icons" type="button" id="toggleButton"
             class="ml-1 inline-flex items-center rounded-lg p-2 text-xl text-prussianBlue-800 hover:bg-prussianBlue-700/20 focus:outline-none focus:ring-2 focus:ring-sky-50 dark:text-sky-50 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
             aria-controls="mega-menu-icons" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
@@ -260,9 +264,10 @@
       </div>
     </nav>
   </header>
+  
   <script src="index.js"></script>
   <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 </body>
 
 </html>

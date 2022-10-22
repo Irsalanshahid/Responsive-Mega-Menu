@@ -29,7 +29,10 @@ togBtnCompany.addEventListener('click',()=>{
 });
 
 const darkMode = document.getElementById("toggleB");
-const htmlDocWhole = document.getElementById("documentId")
+const htmlDocWhole = document.getElementById("documentId");
+
+
+
 darkMode.addEventListener('click',()=>{
     if(darkMode.checked){
         htmlDocWhole.classList.add("dark");
